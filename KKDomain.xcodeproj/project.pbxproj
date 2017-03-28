@@ -26,6 +26,12 @@
 		FB4EAAFB1E8AD1800084EFB6 /* KKDomainFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4EAAF21E8AD1800084EFB6 /* KKDomainFramework.framework */; };
 		FB4EAB001E8AD1800084EFB6 /* KKDomainFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4EAAFF1E8AD1800084EFB6 /* KKDomainFrameworkTests.m */; };
 		FB4EAB021E8AD1800084EFB6 /* KKDomainFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4EAAF41E8AD1800084EFB6 /* KKDomainFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4EAB0C1E8AD3830084EFB6 /* KKDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = A3803A0B18F1A38400488F21 /* KKDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4EAB0D1E8AD38D0084EFB6 /* KKDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = A3803A0D18F1A38400488F21 /* KKDomain.m */; };
+		FB4EAB0E1E8AD3940084EFB6 /* NSString+KKDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = A3803A2C18F1A3AE00488F21 /* NSString+KKDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4EAB0F1E8AD39B0084EFB6 /* NSString+KKDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = A3803A2D18F1A3AE00488F21 /* NSString+KKDomain.m */; };
+		FB4EAB101E8AD3A00084EFB6 /* NSURL+KKDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = A3803A4618F1A84E00488F21 /* NSURL+KKDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4EAB111E8AD3A50084EFB6 /* NSURL+KKDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = A3803A4718F1A84E00488F21 /* NSURL+KKDomain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,7 +288,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4EAB0C1E8AD3830084EFB6 /* KKDomain.h in Headers */,
 				FB4EAB021E8AD1800084EFB6 /* KKDomainFramework.h in Headers */,
+				FB4EAB0E1E8AD3940084EFB6 /* NSString+KKDomain.h in Headers */,
+				FB4EAB101E8AD3A00084EFB6 /* NSURL+KKDomain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +486,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4EAB0D1E8AD38D0084EFB6 /* KKDomain.m in Sources */,
+				FB4EAB0F1E8AD39B0084EFB6 /* NSString+KKDomain.m in Sources */,
+				FB4EAB111E8AD3A50084EFB6 /* NSURL+KKDomain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -844,6 +856,7 @@
 				FB4EAB041E8AD1800084EFB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB4EAB081E8AD1800084EFB6 /* Build configuration list for PBXNativeTarget "KKDomainFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -852,6 +865,7 @@
 				FB4EAB061E8AD1800084EFB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
