@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char KKDomainFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <KKDomainFramework/PublicHeader.h>
 
-
+#import "NSString+KKDomain.h"
+#import "NSURL+KKDomain.h"
+#import "KKDomain.h"
